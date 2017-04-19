@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PGH Bus Tracker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3C5E65C41EA74B230046E2C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C5E65D81EA74B240046E2C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C5E65E31EA74B240046E2C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
