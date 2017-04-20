@@ -14,6 +14,10 @@
 		3C5E65D31EA74B240046E2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5E65D11EA74B240046E2C8 /* LaunchScreen.storyboard */; };
 		3C5E65DE1EA74B240046E2C8 /* PGH_Bus_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E65DD1EA74B240046E2C8 /* PGH_Bus_TrackerTests.swift */; };
 		3C5E65E91EA74B240046E2C8 /* PGH_Bus_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E65E81EA74B240046E2C8 /* PGH_Bus_TrackerUITests.swift */; };
+		3C5E9FAE1EA79C1600FA38AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E9FAD1EA79C1600FA38AB /* Constants.swift */; };
+		44CFC89149476901EB6F9B24 /* Pods_PGH_Bus_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A46F21B4F32ADF68A3D376 /* Pods_PGH_Bus_TrackerUITests.framework */; };
+		586F6359F3107E433DC96AD3 /* Pods_PGH_Bus_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6A19092658907EA71D38BF /* Pods_PGH_Bus_Tracker.framework */; };
+		CAB8DBC68A7A26D0C0EFB629 /* Pods_PGH_Bus_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BEFEE54ABE1C29F8A4ABE7 /* Pods_PGH_Bus_TrackerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00BEFEE54ABE1C29F8A4ABE7 /* Pods_PGH_Bus_TrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGH_Bus_TrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8DDCC1F956242567CA8931 /* Pods-PGH Bus Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGH Bus Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGH Bus Tracker/Pods-PGH Bus Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		3733B583FC498B41705E0619 /* Pods-PGH Bus TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGH Bus TrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGH Bus TrackerTests/Pods-PGH Bus TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C5E65C51EA74B230046E2C8 /* PGH Bus Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PGH Bus Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5E65C81EA74B240046E2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C5E65CA1EA74B240046E2C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		3C5E65E41EA74B240046E2C8 /* PGH Bus TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PGH Bus TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5E65E81EA74B240046E2C8 /* PGH_Bus_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGH_Bus_TrackerUITests.swift; sourceTree = "<group>"; };
 		3C5E65EA1EA74B240046E2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5E9FAD1EA79C1600FA38AB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4177788B8B7BE609BA943FAD /* Pods-PGH Bus TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGH Bus TrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGH Bus TrackerTests/Pods-PGH Bus TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		429251CE6AFCFA331975F2AF /* Pods-PGH Bus TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGH Bus TrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGH Bus TrackerUITests/Pods-PGH Bus TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B6A19092658907EA71D38BF /* Pods_PGH_Bus_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGH_Bus_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A46F21B4F32ADF68A3D376 /* Pods_PGH_Bus_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGH_Bus_TrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C543A0F0EF884C4E92497BCC /* Pods-PGH Bus TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGH Bus TrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGH Bus TrackerUITests/Pods-PGH Bus TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7DD23BC82BCA8F70266A919 /* Pods-PGH Bus Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGH Bus Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGH Bus Tracker/Pods-PGH Bus Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586F6359F3107E433DC96AD3 /* Pods_PGH_Bus_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB8DBC68A7A26D0C0EFB629 /* Pods_PGH_Bus_TrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CFC89149476901EB6F9B24 /* Pods_PGH_Bus_TrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				3C5E65DC1EA74B240046E2C8 /* PGH Bus TrackerTests */,
 				3C5E65E71EA74B240046E2C8 /* PGH Bus TrackerUITests */,
 				3C5E65C61EA74B240046E2C8 /* Products */,
+				3C6072EB3AA254815D684B12 /* Pods */,
+				A21A70166BEA8A3DA9836FC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				3C5E65CF1EA74B240046E2C8 /* Assets.xcassets */,
 				3C5E65D11EA74B240046E2C8 /* LaunchScreen.storyboard */,
 				3C5E65D41EA74B240046E2C8 /* Info.plist */,
+				3C5E9FAD1EA79C1600FA38AB /* Constants.swift */,
 			);
 			path = "PGH Bus Tracker";
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = "PGH Bus TrackerUITests";
 			sourceTree = "<group>";
 		};
+		3C6072EB3AA254815D684B12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7DD23BC82BCA8F70266A919 /* Pods-PGH Bus Tracker.debug.xcconfig */,
+				2A8DDCC1F956242567CA8931 /* Pods-PGH Bus Tracker.release.xcconfig */,
+				3733B583FC498B41705E0619 /* Pods-PGH Bus TrackerTests.debug.xcconfig */,
+				4177788B8B7BE609BA943FAD /* Pods-PGH Bus TrackerTests.release.xcconfig */,
+				429251CE6AFCFA331975F2AF /* Pods-PGH Bus TrackerUITests.debug.xcconfig */,
+				C543A0F0EF884C4E92497BCC /* Pods-PGH Bus TrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21A70166BEA8A3DA9836FC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B6A19092658907EA71D38BF /* Pods_PGH_Bus_Tracker.framework */,
+				00BEFEE54ABE1C29F8A4ABE7 /* Pods_PGH_Bus_TrackerTests.framework */,
+				C1A46F21B4F32ADF68A3D376 /* Pods_PGH_Bus_TrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C5E65ED1EA74B240046E2C8 /* Build configuration list for PBXNativeTarget "PGH Bus Tracker" */;
 			buildPhases = (
+				8921DEA7F74136DA9219211E /* [CP] Check Pods Manifest.lock */,
 				3C5E65C11EA74B230046E2C8 /* Sources */,
 				3C5E65C21EA74B230046E2C8 /* Frameworks */,
 				3C5E65C31EA74B230046E2C8 /* Resources */,
+				6E67CDA7DF1D5482F0D7B027 /* [CP] Embed Pods Frameworks */,
+				219368CBD938F7D6D868604A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C5E65F01EA74B240046E2C8 /* Build configuration list for PBXNativeTarget "PGH Bus TrackerTests" */;
 			buildPhases = (
+				EDC5CD339374CAC5E683AC7C /* [CP] Check Pods Manifest.lock */,
 				3C5E65D51EA74B240046E2C8 /* Sources */,
 				3C5E65D61EA74B240046E2C8 /* Frameworks */,
 				3C5E65D71EA74B240046E2C8 /* Resources */,
+				BD0201AFE4D01D15D045A128 /* [CP] Embed Pods Frameworks */,
+				F6E671FF611D448F6A7FE00C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C5E65F31EA74B240046E2C8 /* Build configuration list for PBXNativeTarget "PGH Bus TrackerUITests" */;
 			buildPhases = (
+				774950831EBB818D52E54F83 /* [CP] Check Pods Manifest.lock */,
 				3C5E65E01EA74B240046E2C8 /* Sources */,
 				3C5E65E11EA74B240046E2C8 /* Frameworks */,
 				3C5E65E21EA74B240046E2C8 /* Resources */,
+				DA16C3FF8CAB8AB3C8CA7A68 /* [CP] Embed Pods Frameworks */,
+				FCE622890422A30A9DFE6C5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +245,7 @@
 				TargetAttributes = {
 					3C5E65C41EA74B230046E2C8 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8LQHT4GJKR;
 						ProvisioningStyle = Automatic;
 					};
 					3C5E65D81EA74B240046E2C8 = {
@@ -254,6 +307,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		219368CBD938F7D6D868604A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGH Bus Tracker/Pods-PGH Bus Tracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E67CDA7DF1D5482F0D7B027 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGH Bus Tracker/Pods-PGH Bus Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		774950831EBB818D52E54F83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8921DEA7F74136DA9219211E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD0201AFE4D01D15D045A128 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGH Bus TrackerTests/Pods-PGH Bus TrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA16C3FF8CAB8AB3C8CA7A68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGH Bus TrackerUITests/Pods-PGH Bus TrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC5CD339374CAC5E683AC7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E671FF611D448F6A7FE00C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGH Bus TrackerTests/Pods-PGH Bus TrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCE622890422A30A9DFE6C5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGH Bus TrackerUITests/Pods-PGH Bus TrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C5E65C11EA74B230046E2C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +452,7 @@
 			files = (
 				3C5E65CB1EA74B240046E2C8 /* ViewController.swift in Sources */,
 				3C5E65C91EA74B240046E2C8 /* AppDelegate.swift in Sources */,
+				3C5E9FAE1EA79C1600FA38AB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +604,10 @@
 		};
 		3C5E65EE1EA74B240046E2C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DD23BC82BCA8F70266A919 /* Pods-PGH Bus Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8LQHT4GJKR;
 				INFOPLIST_FILE = "PGH Bus Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eric1221bday.PGH-Bus-Tracker";
@@ -424,8 +618,10 @@
 		};
 		3C5E65EF1EA74B240046E2C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8DDCC1F956242567CA8931 /* Pods-PGH Bus Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8LQHT4GJKR;
 				INFOPLIST_FILE = "PGH Bus Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eric1221bday.PGH-Bus-Tracker";
@@ -436,6 +632,7 @@
 		};
 		3C5E65F11EA74B240046E2C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3733B583FC498B41705E0619 /* Pods-PGH Bus TrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +647,7 @@
 		};
 		3C5E65F21EA74B240046E2C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4177788B8B7BE609BA943FAD /* Pods-PGH Bus TrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +662,7 @@
 		};
 		3C5E65F41EA74B240046E2C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429251CE6AFCFA331975F2AF /* Pods-PGH Bus TrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "PGH Bus TrackerUITests/Info.plist";
@@ -477,6 +676,7 @@
 		};
 		3C5E65F51EA74B240046E2C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C543A0F0EF884C4E92497BCC /* Pods-PGH Bus TrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "PGH Bus TrackerUITests/Info.plist";
@@ -507,6 +707,7 @@
 				3C5E65EF1EA74B240046E2C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C5E65F01EA74B240046E2C8 /* Build configuration list for PBXNativeTarget "PGH Bus TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +716,7 @@
 				3C5E65F21EA74B240046E2C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C5E65F31EA74B240046E2C8 /* Build configuration list for PBXNativeTarget "PGH Bus TrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +725,7 @@
 				3C5E65F51EA74B240046E2C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

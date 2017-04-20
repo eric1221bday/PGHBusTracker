@@ -1,0 +1,6 @@
+framework module Pods_PGH_Bus_Tracker {
+  umbrella header "Pods-PGH Bus Tracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
